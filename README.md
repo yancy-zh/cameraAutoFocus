@@ -5,6 +5,9 @@ This project provides a fast tool as well as the source code to find the best me
 The project folder is consisted of two folders, which are /scripts and /Test_results. Inside of /scripts, the functions and contents of the scripts are described as follows:
 * **iBin_Autofocus_Metrics.py** 37 different types of metrics, including the reknowed kernels such as "Variance of Median", "Tenengrad Scharr", "Tenengrad Sobel", "Laplacian". 
 * **Read_metric_from_Excel.py** a script that loads the scores after evaluation each metric on the given samples images, and draws the curves which indicate the ideal lens rotation angle, in another way, the best focus angle. 
+Inside of /patterns the sample images of circle patterns can be seen. For example, see below:
+![circlesPattern001](https://user-images.githubusercontent.com/60941643/120919650-4610ff80-c6ed-11eb-90dd-a4033fef6ce4.PNG)
+
 ## Prerequisites
 The following instructions will get you a copy of the project up and running on your local machine for development and testing purposes.
 
