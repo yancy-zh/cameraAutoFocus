@@ -18,7 +18,9 @@ Inside of /patterns the sample images of circle patterns can be seen. For exampl
 ![circlesPattern001](https://user-images.githubusercontent.com/60941643/120919650-4610ff80-c6ed-11eb-90dd-a4033fef6ce4.PNG)
 an example of the sharpness score using Tenengrad kernel is shown below (使用Tenengrad算子计算的清晰度打分如下图所示): 
 ![Tenengrad-TScharrCalculatedSamples](https://user-images.githubusercontent.com/60941643/122580880-051fd000-d089-11eb-867a-469152b2c869.png)
-where the x axis indicates the rotation angle of the lens, ranging from [0, 1343] degrees, and y axis the metric score calculated with the Tenengrad kernel. (x 轴显示了镜头的旋转角度，而y轴显示了所选度量标准Tenengrad计算出的分数。)
+
+where the x axis indicates the rotation angle of the lens, ranging from [0, 1343] degrees, and y axis the metric score calculated with the Tenengrad kernel. (x 轴显示了镜头的旋转角度，而y轴显示了所选度量标准Tenengrad计算出的分数。
+The peak value, which corresponds to the highest lens angle, can be set to obtain the best focus.
 
 ## 图片集，样张集
 该图片集采集于不同调焦角度下的校验样本图像，可参考其数量、调焦跨度来为相机或者光学传感器进行镜头调焦程序的设计。
